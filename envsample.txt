@@ -2,6 +2,7 @@
 CLIENT_ID=
 CLIENT_SECRET=
 TENANT_ID=
+REDIRECT_URI=http://localhost:5002/getAToken
 
 # Flask
 FLASK_SECRET_KEY=

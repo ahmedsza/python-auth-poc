@@ -57,6 +57,7 @@ Create a `.env` file in the project root (or edit the existing one):
 CLIENT_ID=<your Application (client) ID>
 CLIENT_SECRET=<your client secret Value>
 TENANT_ID=<your Directory (tenant) ID>
+REDIRECT_URI=http://localhost:5002/getAToken
 FLASK_SECRET_KEY=<a random hex string>
 ```
 

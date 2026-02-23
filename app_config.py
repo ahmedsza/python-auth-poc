@@ -9,8 +9,7 @@ TENANT_ID = os.getenv("TENANT_ID")
 
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 
-REDIRECT_PATH = "/getAToken"
-REDIRECT_URI = f"http://localhost:5002{REDIRECT_PATH}"
+REDIRECT_URI = os.getenv("REDIRECT_URI", "http://localhost:5002/getAToken")
 
 SCOPE = ["User.Read"]
 
