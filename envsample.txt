@@ -1,0 +1,7 @@
+# Azure Entra ID (App Registration)
+CLIENT_ID=
+CLIENT_SECRET=
+TENANT_ID=
+
+# Flask
+FLASK_SECRET_KEY=

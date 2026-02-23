@@ -1,0 +1,5 @@
+flask
+identity[flask]
+flask-session
+python-dotenv
+requests
